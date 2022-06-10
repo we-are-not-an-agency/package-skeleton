@@ -1,0 +1,35 @@
+{
+    "name": ":lc:vendor/:lc:package",
+    "description": ":package_description",
+    "license": ":license",
+    "type": "library",
+    "homepage": "https://github.com/we-are-not-an-agency/:lc:package",
+    "keywords": ["Laravel", "Filament", ":uc:package", "WANAA"],
+    "require": {
+        "illuminate/support": "^9.17"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WANAA\\:uc:package\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WANAA\\:uc:package\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WANAA\\:uc:package\\:uc:packageServiceProvider"
+            ],
+            "aliases": {
+                ":uc:package": "WANAA\\:uc:package\\Facades\\:uc:package"
+            }
+        }
+    }
+}
