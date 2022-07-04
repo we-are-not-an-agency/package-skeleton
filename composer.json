@@ -6,7 +6,8 @@
     "homepage": "https://github.com/we-are-not-an-agency/:lc:package",
     "keywords": ["Laravel", "Filament", ":uc:package", "WANAA"],
     "require": {
-        "illuminate/support": "^9.17"
+        "illuminate/support": "^9.17",
+        "filament/filament": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
