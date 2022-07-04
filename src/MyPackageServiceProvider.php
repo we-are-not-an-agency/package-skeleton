@@ -3,7 +3,7 @@
 namespace WANAA\:uc:package;
 
 use Filament\PluginServiceProvider;
-use Illuminate\Support\ServiceProvider;
+use Spatie\LaravelPackageTools\Package;
 
 class :uc:packageServiceProvider extends PluginServiceProvider
 {
